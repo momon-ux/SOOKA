@@ -18,7 +18,7 @@ const rumusanKategori = {
 
         // Senarai gambar berdasarkan kategori
         const gambarKategori = {
-            kekuatan: { "2024": "Kekuatan Kami 2024.png", "2025": "Kekuatan Kami 2025.png" },
+            kekuatan: { "2024": "Kekuatan kami 2024.png", "2025": "Kekuatan kami 2025.png" },
             standard1_5: { "2024": "Standard 1-5 2024.png", "2025": "Standard1-5 2025.png" },
             standard5: { "2024": "Standard 5 2024.png", "2025": "Standard 5 2025.png" },
             standard1: { "2024": "Standard 1 Kepimpinan 2024.png", "2025": "Standard 1 Kepimpinan 2025.png" },
