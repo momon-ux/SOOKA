@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisis Perbandingan SKPM Kualiti@Sekolah</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <img src="skluasong.jpg" alt="skluasong" class="logo">
+	    <img src="logo madani.png" alt="Logo Madani" class="logo-right" width="100" height="100">
+            <div>
+                <h1>ANALISIS PRESTASI SEKOLAH KEBANGSAAN LUASONG<h1>
+		<h2>SKPM K@S 2024/ SKPM K@S 2025</h2>
+                <p>Sekolah Kebangsaan Luasong, Peti Surat 60793, 91017 Tawau, Sabah</p>
+            </div>
+<img src="Logo Sabah.png" alt="Logo Sabah" class="logo-up" width="100" height="100">
+        </div>
+    </header>
+<div class="widget-container">
+    <div class="widget" id="dateWidget"><i class="fas fa-calendar-alt"></i> <span id="currentDate"></span></div>
+    <div class="widget" id="visitorCounter"><i class="fas fa-users"></i> Jumlah Pelawat: <span id="visitorCount">0</span></div>
+    <div class="widget" id="weatherWidget"><i class="fas fa-cloud-sun"></i> <span id="weatherInfo">Memuatkan...</span></div>
+</div>
+<p>Analisis oleh Mohammad Fikrey Bin Abdul Gapar</p>
+    <nav>
+        <ul class="nav-buttons">
+            <li><button class="btn" onclick="tunjukKategori('kekuatan')">Kekuatan Kami</button></li>
+            <li><button class="btn" onclick="tunjukKategori('standard1_5')">Standard 1-5</button></li>
+            <li><button class="btn" onclick="tunjukKategori('standard5')">Standard 5 Kemenjadian</button></li>
+            <li><button class="btn" onclick="tunjukKategori('standard1')">Standard 1 Kepimpinan</button></li>
+            <li><button class="btn" onclick="tunjukKategori('standard2')">Standard 2 Pengurusan</button></li>
+            <li><button class="btn" onclick="tunjukKategori('standard3_1')">Standard 3.1 Pengurusan Kurikulum</button></li>
+            <li><button class="btn" onclick="tunjukKategori('standard3_2')">Standard 3.2 Pengurusan Kokurikulum</button></li>
+            <li><button class="btn" onclick="tunjukKategori('standard3_3')">Standard 3.3 Pengurusan HEM</button></li>
+            <li><button class="btn" onclick="tunjukKategori('standard4')">Standard 4 PdPc</button></li>
+            <li><button class="btn" onclick="tunjukKategori('triangulasi_kurikulum')">Triangulasi Pengurusan Kurikulum</button></li>
+            <li><button class="btn" onclick="tunjukKategori('triangulasi_kokurikulum')">Triangulasi Pengurusan Kokurikulum</button></li>
+            <li><button class="btn" onclick="tunjukKategori('triangulasi_hem')">Triangulasi Pengurusan HEM</button></li>
+        </ul>
+    </nav>
+
+    <section class="perbandingan" id="perbandingan" style="display: none;">
+        <div class="tahun" id="tahun2024" style="display: none;">
+            <h3>2024</h3>
+            <img id="gambar2024" class="gambar-animasi" src="" alt="Gambar 2024">
+        </div>
+        <div class="tahun" id="tahun2025" style="display: none;">
+            <h3>2025</h3>
+            <img id="gambar2025" class="gambar-animasi" src="" alt="Gambar 2025">
+        </div>
+    </section>
+
+    <section class="rumusan">
+        <h3>Rumusan Perbandingan</h3>
+        <p id="rumusan">Pilih kategori untuk melihat perbandingan.</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
